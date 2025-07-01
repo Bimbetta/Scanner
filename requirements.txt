@@ -1,0 +1,25 @@
+# Bot Telegram - Décodeur de Codes
+# Requirements Python
+
+# Telegram Bot
+python-telegram-bot==20.7
+
+# Décodage de codes-barres et QR codes
+pyzbar==0.1.9
+qrcode[pil]==7.4.2
+
+# Traitement d'images
+opencv-python==4.8.1.78
+Pillow==10.1.0
+numpy==1.24.3
+
+# Utilitaires
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Décodage avancé (optionnel)
+# zxing-cpp==2.2.1  # Alternative plus rapide
+# pylibdmtx==0.1.10  # Spécifique aux Data Matrix
+
+# Pour le déploiement
+gunicorn==21.2.0
